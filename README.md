@@ -56,3 +56,9 @@ leetcode
 25. [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)
 
 26. [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+
+27. [1072. Flip Columns For Maximum Number of Equal Rows](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/)
+
+28. [895. Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)
+
+29. [912. Sort an Array](https://leetcode.com/problems/sort-an-array/)
