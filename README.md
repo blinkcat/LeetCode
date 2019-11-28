@@ -62,3 +62,13 @@ leetcode
 28. [895. Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)
 
 29. [912. Sort an Array](https://leetcode.com/problems/sort-an-array/)
+
+30. [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
+
+31. [167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+
+32. [18. 4Sum](https://leetcode.com/problems/4sum/)
+
+33. [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+
+34. [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
