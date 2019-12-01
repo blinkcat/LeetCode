@@ -72,3 +72,5 @@ leetcode
 33. [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 
 34. [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+
+35. [15. 3Sum](https://leetcode.com/problems/3sum/)
