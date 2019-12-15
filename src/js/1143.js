@@ -37,3 +37,30 @@ var longestCommonSubsequence = function(text1, text2) {
  * else
  *  dp[i][j]=max(dp[i-1][j], dp[i][j-1])
  */
+
+/**
+ * @param {string} text1
+ * @param {string} text2
+ * @return {number}
+ */
+var longestCommonSubsequence = function(text1, text2) {
+    const dp = [];
+    const n1 = text1.length;
+    const n2 = text2.length;
+
+    for (let i = 0; i < n1; i++) {
+        dp[i] = [0];
+        for (let j = 0; j < n2; j++) {
+            if (text1[i] == text2[j]) {
+                dp[i][j] = i == 0 || j == 0 ? 1 : dp[i - 1][j - 1] + 1;
+            } else {
+                dp[i][j] = Math.max(
+                    i == 0 ? 0 : dp[i - 1][j],
+                    j == 0 ? 0 : dp[i][j - 1]
+                );
+            }
+        }
+    }
+
+    return dp[n1 - 1][n2 - 1];
+};

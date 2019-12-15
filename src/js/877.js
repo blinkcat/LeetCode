@@ -19,6 +19,7 @@ var stoneGame = function(piles) {
             const j = i + l - 1;
 
             if (l == 2) {
+                // 最优情况下，第一次拿的人肯定取最大值
                 dp[i][j] = Math.abs(piles[i] - piles[j]);
             } else {
                 dp[i][j] = Math.max.apply(null, [
@@ -44,4 +45,18 @@ var stoneGame = function(piles) {
  * )
  *
  * 最后 dp[0][len-1] 就是结果
+ */
+
+/**
+ * @param {number[]} piles
+ * @return {boolean}
+ */
+var stoneGame = function(piles) {
+    return true;
+};
+
+/**
+ * 根据下标，将石头分为奇数组 odd，偶数组 even。
+ * if sum(odd)>sum(even), 先取的人第一次先取奇数下标的石头，就可以确保自己一直会取奇数下标的石头。
+ * 这样先取的人一定会赢。
  */

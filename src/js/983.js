@@ -5,13 +5,15 @@
  */
 var mincostTickets = function(days, costs) {
     const dp = [];
+    const n = days.length;
 
     function dfs(i) {
         if (dp[i] != null) {
             return dp[i];
         }
 
-        if (i > 365) {
+        // if (i > 365) {
+        if (i > n - 1) {
             return 0;
         }
 
@@ -31,7 +33,8 @@ var mincostTickets = function(days, costs) {
         return cost;
     }
 
-    return dfs(1);
+    // return dfs(1);
+    return dfs(days[0]);
 };
 
 /**

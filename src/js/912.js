@@ -134,3 +134,42 @@ function quickSort(nums, low, high) {
         quickSort(nums, pi, high);
     }
 }
+
+/**
+ * 这个版本的更容易理解
+ *
+ * @param {*} nums
+ * @param {*} l
+ * @param {*} h
+ * @returns
+ */
+function quickSort(nums, l, h) {
+    if (l >= h) {
+        return;
+    }
+
+    let i = l;
+    let j = h;
+    const pivot = nums[(i + j) >> 1];
+
+    while (i <= j) {
+        while (nums[i] < pivot) {
+            i++;
+        }
+        while (nums[j] > pivot) {
+            j--;
+        }
+        if (i < j) {
+            [nums[i], nums[j]] = [nums[j], nums[i]];
+            // 指针要继续移动，不然可能造成死循环 [2, 2, 2]
+            i++;
+            j--;
+        } else if (i == j) {
+            // 还要注意这里
+            i++;
+        }
+    }
+
+    quickSort(nums, l, j);
+    quickSort(nums, i, h);
+}
