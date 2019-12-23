@@ -4,38 +4,31 @@
  * @return {number[][]}
  */
 var fourSum = function(nums, target) {
-    const res = [];
-    const f = [];
-    const cache = [];
-
     nums.sort((a, b) => a - b);
 
-    function traverse(k, start, left) {
+    const res = [];
+    const temp = [];
+    const n = nums.length;
+
+    function traverse(k, start, sum) {
         if (k == 0) {
-            if (left == 0) {
-                res.push(cache.slice());
+            if (sum == target) {
+                res.push(temp.slice());
             }
-        } else {
-            for (let i = start; i < nums.length - k + 1; i++) {
-                // 剪枝
-                if (i > start && nums[i] == nums[i - 1]) {
-                    continue;
-                }
-                if (f[i]) {
-                    continue;
-                } else {
-                    f[i] = true;
-                    cache.push(nums[i]);
-                    // 剪枝
-                    traverse(k - 1, i + 1, left - nums[i]);
-                    f[i] = false;
-                    cache.pop();
-                }
+            return;
+        }
+
+        for (let i = start; i < n - k + 1; i++) {
+            if (i > start && nums[i] == nums[i - 1]) {
+                continue;
             }
+            temp.push(nums[i]);
+            traverse(k - 1, i + 1, sum + nums[i]);
+            temp.pop();
         }
     }
 
-    traverse(4, 0, target);
+    traverse(4, 0, 0);
 
     return res;
 };

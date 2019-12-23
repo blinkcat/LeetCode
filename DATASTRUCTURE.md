@@ -17,3 +17,5 @@ Special data structure i met
 ## Union Find
 
 1. [Union-Find Set 的江湖](https://www.acwing.com/blog/content/444/)
+
+## bitVector

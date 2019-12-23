@@ -79,6 +79,7 @@ var kthSmallest = function(matrix, k) {
             count += j + 1;
         }
 
+        // 注意这里，先比较<，后比较>，才能逼近
         if (count < k) {
             left = mid + 1;
         } else {

@@ -55,3 +55,8 @@ var minimumSwap = function(s1, s2) {
  *
  * 所以，总共需要4次
  */
+
+/**
+ * 另一种解法
+ * @see https://www.acwing.com/solution/LeetCode/content/5820/
+ */

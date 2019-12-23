@@ -66,24 +66,30 @@ leetcode
 
 31. [167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) 😀
 
-32. [18. 4Sum](https://leetcode.com/problems/4sum/)
+32. [18. 4Sum](https://leetcode.com/problems/4sum/) 😟
 
-33. [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+33. [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) 😀
 
-34. [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+34. [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) 😟
 
-35. [15. 3Sum](https://leetcode.com/problems/3sum/)
+35. [15. 3Sum](https://leetcode.com/problems/3sum/) 😟
 
-36. [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)
+36. [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) 😀
 
-37. [1247. Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/)
+37. [1247. Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) 😟
 
-38. [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+38. [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) 😀
 
-39. [1029. Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)
+39. [1029. Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) 😀
 
-40. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+40. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) 😀
 
 41. [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 
 42. [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)
+
+43. [1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)
+
+44. [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
+
+45. [847. Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)
