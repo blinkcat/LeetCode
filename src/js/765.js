@@ -115,3 +115,8 @@ var minSwapsCouples = function(row) {
 /**
  * 还是并查集的原理，但是使用map，适用范围更广。
  */
+
+/**
+ * other explaination
+ * @see http://wowaccepted.com/2018/02/10/leetcode-765-couples-holding-hands%E9%A2%98%E7%9B%AE%E8%A7%A3%E6%9E%90-wowac/
+ */

@@ -93,3 +93,11 @@ leetcode
 44. [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
 
 45. [847. Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)
+
+46. [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
+
+47. [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
+
+48. [632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)
+
+49. [51. N-Queens](https://leetcode.com/problems/n-queens/)
