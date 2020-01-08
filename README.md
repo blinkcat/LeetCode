@@ -101,3 +101,21 @@ leetcode
 48. [632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)
 
 49. [51. N-Queens](https://leetcode.com/problems/n-queens/)
+
+50. [1206. Design Skiplist](https://leetcode.com/problems/design-skiplist/)
+
+51. [137. Single Number II](https://leetcode.com/problems/single-number-ii)
+
+52. [260. Single Number III](https://leetcode.com/problems/single-number-iii/)
+
+53. [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
+
+54. [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+
+55. [959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
+
+56. [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+
+57. [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
+
+58. [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)

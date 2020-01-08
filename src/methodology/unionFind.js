@@ -51,3 +51,59 @@ function zip(x) {
         p[x] = find(p[x]);
     }
 }
+
+/**
+ * Disjoint Set Union
+ *
+ * @see https://blog.csdn.net/anlian523/article/details/81841082
+ * @see https://leetcode.com/problems/redundant-connection/solution/
+ */
+class DSU {
+    constructor(size) {
+        this.parent = new Array(size);
+
+        for (let i = 0; i < size; i++) {
+            this.parent[i] = i;
+        }
+
+        this.rank = new Array(size).fill(0, 0);
+    }
+
+    find(x) {
+        // path compression
+        if (this.parent[x] !== x) {
+            this.parent[x] = this.find(this.parent[x]);
+        }
+        return this.parent[x];
+
+        // without path compression
+        // if (this.parent[x] !== x) {
+        //     return this.find(this.parent[x]);
+        // }
+        // return x;
+    }
+
+    union(x, y) {
+        // union by rank
+        const xr = this.find(x);
+        const yr = this.find(y);
+
+        if (xr === yr) {
+            return false;
+        }
+
+        if (this.rank[xr] < this.rank[yr]) {
+            this.parent[xr] = yr;
+        } else if (this.rank[xr] > this.rank[yr]) {
+            this.parent[yr] = xr;
+        } else {
+            this.parent[yr] = xr;
+            this.rank[xr]++;
+        }
+
+        return true;
+
+        // without union by rank
+        // this.parent[this.find(x)] = this.find(y);
+    }
+}
